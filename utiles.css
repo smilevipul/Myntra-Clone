@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+
+.upper-case{
+    text-transform: capitalize;
+}
+
+.semibold{
+    font-weight: 600;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.mx{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+p{
+    color: blue;
+}
+
+.width-100{
+    width: 100%;
+}
