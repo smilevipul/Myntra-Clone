@@ -21,10 +21,6 @@ header{
 }
 
 .container{
-    /* max-width: 97vw; */
-     /* width: 100%; */
-    /* margin: auto; */
-    /* padding: 0 20px; */
     padding: 18px;
 }
 /* .left ul{
@@ -128,6 +124,7 @@ footer{
     .left img{
         width: 60px;
         height: 33px;
+        margin-left: 20px;
         margin-right: 10px;      
     }
 
@@ -150,12 +147,21 @@ footer{
         /* border: 0px solid black; */
         border: none;
         border-radius: 2px;
-        background-color: red;
     }
     .left img{
         width: 60px;
         height: 33px;
-        margin-left: 5px;
+        margin-left: 10px;
+        margin-right: 5px;
         
     }
+}
+@media only screen and (max-width : 1050px)
+{
+    /* .flex{
+        display: flex;
+        flex-direction: column;
+
+    } */
+    
 }
